@@ -1,0 +1,7 @@
+public class HomeWork2Task4 {
+    public static void main(String[] args) {
+        int n = 1851;
+
+        System.out.println("Последняя цифра числа " + n + ": " + (n%10));
+    }
+}
