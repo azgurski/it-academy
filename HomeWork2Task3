@@ -1,0 +1,10 @@
+public class HomeWork2Task3 {
+    public static void main(String[] args) {
+        int n = 144;
+        int r1 = n/100;
+        int r2 = n/10%10;
+        int r3 = n%10;
+
+        System.out.println("Сумма цифр числа " + n + ": " + (r1+r2+r3));
+    }
+}
