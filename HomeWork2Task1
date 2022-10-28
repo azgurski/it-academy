@@ -1,8 +1,0 @@
-public class HomeWork2Task1 {
-    public static void main(String[] args) {
-        int n = 25;
-        int sum = (n/10) + (n%10);
-
-        System.out.println("Сумма цифр: " + sum);
-    }
-}
