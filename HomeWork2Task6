@@ -1,7 +1,0 @@
-public class HomeWork2Task6 {
-    public static void main(String[] args) {
-        int n = 49701;
-
-        System.out.println("Третья цифра числа " + n + " : " + (n%1000/100));
-    }
-}
