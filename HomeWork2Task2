@@ -1,8 +1,0 @@
-public class HomeWork2Task2 {
-    public static void main(String[] args) {
-        int q = 36, w = 5;
-        int div = q/w, mod = q%w;
-
-        System.out.println("Результат деления: " + div + ", частное: " + mod + ".");
-    }
-}
