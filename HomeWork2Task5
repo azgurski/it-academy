@@ -1,8 +1,0 @@
-public class HomeWork2Task5 {
-    public static void main(String[] args) {
-        int n = 1724;
-        int p1 = n/100, p2 = n%100;
-
-        System.out.println("Сумма чисел, составленных из первых двух и последних двух цифр числа " + n + " : " + (p1+p2));
-    }
-}
