@@ -7,10 +7,10 @@ public class HomeWork2Task3 {
         System.out.println("Введите натуральное трёхзначное число:");
         int num = scanner.nextInt();
 
-        int FirstDig = num / 100;
-        int SecondDig = num / 10 % 10;
-        int ThirdDig = num % 10;
-        System.out.println("Сумма цифр числа " + num + ": " + (FirstDig + SecondDig + ThirdDig));
+        int firstDig = num / 100;
+        int secondDig = num / 10 % 10;
+        int thirdDig = num % 10;
+        System.out.println("Сумма цифр числа " + num + ": " + (firstDig + secondDig + thirdDig));
 
         scanner.close();
     }
