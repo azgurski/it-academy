@@ -4,18 +4,16 @@ public class HomeWork3Task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter three numbers separated by Enter:");
+        System.out.println("Enter three numbers:");
         float numA = scanner.nextInt();
         float numB = scanner.nextInt();
         float numC = scanner.nextInt();
 
-        if ((numA > numB && numA < numC) || (numA < numB && numA > numC)) {
+        if ((numA - numB) * (numC - numA) >= 0) {
             System.out.println("The middle number of them is: " + numA);
-        }
-        if ((numB > numA && numB < numC) || (numB < numA && numB > numC)) {
+        } else if ((numB - numA) * (numC - numB) >= 0) {
             System.out.println("The middle number of them is: " + numB);
-        }
-        if ((numC > numA && numC < numB) || (numC < numA && numC > numB)) {
+        } else {
             System.out.println("The middle number of them is: " + numC);
         }
 
