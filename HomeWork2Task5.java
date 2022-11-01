@@ -6,9 +6,9 @@ public class HomeWork2Task5 {
 
         System.out.println("Введите натуральное четырёхзначное число:");
         int num = scanner.nextInt();
-        int FirstTwoDig = num / 100, SecondTwoDig = num % 100;
+        int firstTwoDig = num / 100, secondTwoDig = num % 100;
 
-        System.out.println("Сумма чисел, составленных из первых двух и последних двух цифр числа " + num + " : " + (FirstTwoDig + SecondTwoDig));
+        System.out.println("Сумма чисел, составленных из первых двух и последних двух цифр числа " + num + " : " + (firstTwoDig + secondTwoDig));
 
         scanner.close();
     }
