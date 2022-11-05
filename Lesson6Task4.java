@@ -32,7 +32,7 @@ public class Lesson6Task4 {
                         System.out.print(array[currentRow][currentColumn] + " * ");
                     }
                 }
-                System.out.println(" = " + resultMultiplication + " ");
+                System.out.println(" = " + resultMultiplication);
             }
             break;
         }
@@ -52,7 +52,7 @@ public class Lesson6Task4 {
                         System.out.print(array[currentRow][currentColumn] + " * ");
                     }
                 }
-                System.out.println(" = " + resultMultiplication + " ");
+                System.out.println(" = " + resultMultiplication);
             }
             break;
         }
