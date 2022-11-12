@@ -1,4 +1,4 @@
-package HomeWork6;
+package homeWork6.task2;
 
 public class Phone {
     int number;
