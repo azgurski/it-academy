@@ -1,4 +1,4 @@
-package homeWork6;
+package homeWork6.task1;
 
 public class MyFraction {
     public int numerator;
