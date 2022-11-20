@@ -15,13 +15,12 @@ public class HomeWork8Task1 {
 class Man {
     private String name;
     private int age;
-
     private String sex;
     private int weight;
 
     public void info() {
         System.out.print("Name: " + getName());
-        System.out.print("\nAge, years: " + getAge());
+        System.out.print("\nAge: " + getAge());
         System.out.print("\nSex: " + getSex());
         System.out.println("\nWeight, kg: " + getWeight());
     }
@@ -58,7 +57,6 @@ class Man {
 
 class Student {
     private int year;
-    private int duration;
 
     public void calculateEndOfStudying(int duration) {
         System.out.println("\nStart of studying: " + getYearStartOfStudying());
