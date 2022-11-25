@@ -73,8 +73,8 @@ class Bouquet {
     public void showPriceOfBouquet() {
         int bouquetPrice = 0;
 
-        for (int currentElement = 0; currentElement < flowers.length; currentElement++) {
-            bouquetPrice = bouquetPrice + flowers[currentElement].price;
+        for (Flower flowerFromBouquet : flowers) {
+            bouquetPrice += flowerFromBouquet.price;
         }
 
         System.out.println("\nPrice of this bouquet is " + bouquetPrice + " byn.");
