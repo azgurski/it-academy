@@ -119,15 +119,12 @@ class Depot {
             counterOfBuses++;
         }
 
-        /* т.к. найденные автобусы складывались в foundBuses[] начиная с 0-го элемента, то в случае отсутствия
-        автобусов, удовлетворяющих критериям поиска, в 0-й элемент массива ничего не добавится, и, проведя проверку
-        по этому элементу, можно вывести сообщение об отсутствии удовлетворяющих автобусов.*/
-
-        if (foundBuses[0] == null) {
+        if (foundBusIndex == 0) {
             System.out.println("Unfortunately, we don't have any suitable transport.");
+            return buses;
+        } else {
+            return foundBuses;
         }
-
-        return foundBuses;
     }
 
     public Bus[] sortByFuel() {
