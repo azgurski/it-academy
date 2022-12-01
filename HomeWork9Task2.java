@@ -44,7 +44,7 @@ class Iterator<K> {
         K element = array[currentRowIndex][currentColumnIndex];
         currentColumnIndex++;
 
-        while (currentRowIndex < array.length && currentColumnIndex >= array[currentRowIndex].length) {
+        if (currentRowIndex < array.length && currentColumnIndex >= array[currentRowIndex].length) {
             currentColumnIndex = 0;
             currentRowIndex++;
         }
