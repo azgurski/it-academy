@@ -11,7 +11,7 @@ public class HomeWork10Task1 {
     }
 
     public static <K> Map<K, Integer> arrayToMap(K[] ks) {
-        Map<K, Integer> map = new TreeMap<>();
+        Map<K, Integer> map = new HashMap<>();
 
         for (K element : ks) {
 
@@ -22,19 +22,6 @@ public class HomeWork10Task1 {
                 map.put(element, ++entryValue);
             }
         }
-
-//        Альтернативная логика через .putIfAbsent():
-//        for (Integer element = 0; element < ks.length; element++) {
-//            int counterValue = 1;
-//
-//            for (Integer nextElement = element + 1; nextElement < ks.length; nextElement++) {
-//                if (ks[element] == ks[nextElement]) {
-//                    counterValue++;
-//                }
-//            }
-//
-//            map.putIfAbsent(ks[element], counterValue);
-//        }
 
         return map;
     }
