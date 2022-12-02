@@ -1,8 +1,8 @@
 public class HomeWork9Task1 {
     public static void main(String[] args) {
 
-        Pair<?, ?> pair = new Pair<>("Minsk", 2023);
-
+        Pair<String, Integer> pair = new Pair<>("Minsk", 2023);
+       
         pair.first();
         pair.second();
         pair.swap();
@@ -40,9 +40,9 @@ class Pair<A, B> {
         return second;
     }
 
-    public <A, B> void swap() {
-        A newItem1 = (A) getItem2();
-        B newItem2 = (B) getItem1();
+    public void swap() {
+        B newItem1 = getItem2();
+        A newItem2 = getItem1();
 
         System.out.println("\nSwapped first element = " + newItem1);
         System.out.println("Swapped second element = " + newItem2);
