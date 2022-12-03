@@ -43,5 +43,6 @@ public class HomeWork11Task1 {
         }
 
         System.out.println("\nYou won! The secret number is " + guessedNumber + ".");
+        scanner.close();
     }
 }
