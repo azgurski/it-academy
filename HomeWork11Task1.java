@@ -23,18 +23,19 @@ public class HomeWork11Task1 {
 
                 if (userNumber > 100 || userNumber < 1) {
                     System.out.println("The computer doesn't play like that. Your number is not between 1 and 100. Try again.");
+                    userNumber = scanner.nextInt();
                 }
 
                 if (userNumber < guessedNumber) {
                     System.out.println("Guessed number is more. Try again.");
+                    userNumber = scanner.nextInt();
                 }
 
                 if (userNumber > guessedNumber) {
                     System.out.println("Guessed number is less. Try again.");
+                    userNumber = scanner.nextInt();
                 }
-
-                userNumber = scanner.nextInt();
-
+                
             } catch (InputMismatchException e) {
                 System.out.println("It doesn't look like a number to guess...");
                 scanner.next();
