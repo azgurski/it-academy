@@ -33,8 +33,8 @@ public class HomeWork12Task2 {
             int wordsCounter = 0;
             int punctuationCounter = 0;
 
-            Pattern patternPunctuation = Pattern.compile("[.,?!:;«»-]");
             Pattern patternWords = Pattern.compile("[\\w’]+");
+            Pattern patternPunctuation = Pattern.compile("[.,?!:;«»-]");
 
             while (true) {
                 String line = reader.readLine();
