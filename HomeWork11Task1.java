@@ -28,7 +28,7 @@ public class HomeWork11Task1 {
                     break;
                 }
 
-            } catch (InputMismatchException e) {
+            } catch (InputMismatchException ex) {
                 System.out.println("It doesn't look like a number to guess... Try again.");
             }
         }
