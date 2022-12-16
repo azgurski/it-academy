@@ -7,8 +7,7 @@ public class HomeWork13Task2 {
     public static void main(String[] args) {
         List<Integer> integers = new ArrayList<>();
 
-        Generator generator = new Generator(integers);
-        Thread thread = new Thread(generator);
+        Thread generateIntegers = new Thread(new Generator(integers));
         thread.start();
     }
 }
